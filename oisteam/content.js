@@ -1,0 +1,2 @@
+document.querySelector("#global_action_menu > div.header_installsteam_btn.header_installsteam_btn_green > a").innerHTML = "Open In Steam";
+document.querySelector("#global_action_menu > div.header_installsteam_btn.header_installsteam_btn_green > a").href = "steam://openurl/" + window.location;
